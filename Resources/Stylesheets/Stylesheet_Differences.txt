@@ -1,0 +1,127 @@
+___
+
+Original: StylesheetDesktopMedium
+___
+
+Changes from original:
+
+StylesheetDesktopSmall:
+	.ColumnNarrow
+		width
+	.GalleryButtonNext, .GalleryButtonPrevious
+		margin-top
+	.GalleryWallShow
+		height
+	.GalleryWallNumber
+		padding-bottom
+	.SlideshowButtonNext, .SlideshowButtonPrevious
+		margin-top
+	.SlideshowScreen_Show
+		margin-bottom
+		height
+	.SlideshowSlide_Show
+		height
+	.SlideshowSlideNumber
+		padding-bottom
+	#Main
+		margin-top
+	#WebsiteTitle
+		padding-bottom
+		padding-left
+		padding-right
+		padding-top
+		width
+		color
+		font-size
+
+StylesheetMobile:
+	.Article, .ArticleCard, .ArticleLeaf
+		margin-bottom
+		margin-left
+		margin-right
+		margin-top
+		padding-bottom
+		padding-left
+		padding-right
+		padding-top
+	.ColumnNarrow
+		width
+	.Gallery
+		padding-left
+		padding-right
+	.GalleryButtonNext, .GalleryButtonPrevious
+		margin-top
+	.GalleryWallShow
+		height
+	.GalleryWallCaption
+		All
+	.GalleryWallNumber
+		padding-bottom
+	.HeaderNavigation li:not(:first-child)
+	.HeaderNavigation_Show li:not(:first-child)
+	.HeaderNavigationButtonBar
+	.HeaderNavigationButtonClose #HeaderNavigationButtonBar1
+	.HeaderNavigationButtonClose #HeaderNavigationButtonBar2
+	.HeaderNavigationButtonClose #HeaderNavigationButtonBar3
+	.HeaderNavigationDropdown:hover .HeaderNavigationDropdownContent, .HeaderNavigationDropdownContent_Show
+	.HeaderNavigationDropdownButton
+		transition-duration
+		padding-left
+		padding-right
+	.HeaderNavigationDropdownContent_Show
+	.HeaderNavigationDropdownIconMinus::after, .HeaderNavigationDropdownIconPlus::after
+	.HeaderNavigationDropdownIconMinus::after
+	.HeaderNavigationDropdownIconPlus::after
+	.HeaderNavigationLink
+		transition-duration
+		padding-left
+		padding-right
+	.ModalContent
+		margin-bottom
+		margin-left
+		margin-right
+		margin-top
+	.Slideshow
+		padding-left
+		padding-right
+	.SlideshowButtonNext, .SlideshowButtonPrevious
+		margin-top
+	.SlideshowScreen_Show
+		margin-bottom
+		height
+	.SlideshowSlide_Show
+		height
+	.SlideshowSlideCaption
+		All
+	.SlideshowSlideNumber
+		padding-bottom
+	#Footer td
+		padding-left
+		padding-right
+	#Header
+		padding-left
+		padding-right
+		position
+		left
+		top
+	#Header tr
+	#Header td
+	#Header ul
+	#HeaderNavigation
+		padding-top
+	#HeaderNavigation li
+		float
+		min-height
+	#HeaderNavigation li:first-child
+	#HeaderNavigationButton
+		All
+	#Main
+		margin-top
+	#WebsiteTitle
+		padding-bottom
+		padding-left
+		padding-right
+		padding-top
+		width
+		color
+		font-size

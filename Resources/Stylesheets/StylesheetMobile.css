@@ -1,0 +1,875 @@
+﻿body {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    overflow-x: hidden;
+    background: radial-gradient(circle, #DDDDDD, #CCCCCC);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    cursor: default;
+}
+
+.Article, .ArticleCard, .ArticleLeaf {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5);
+}
+
+.Article {
+    background: radial-gradient(circle, #EEEEEE, #DDDDDD);
+}
+
+.ArticleCard, .ArticleLeaf {
+    transition-duration: 0.2s;
+    background-color: #EEEEEE;
+}
+
+.ArticleLeaf {
+    cursor: pointer;
+}
+
+    .ArticleCard:hover, .ArticleLeaf:hover {
+        transition-duration: 0.2s;
+        box-shadow: 0px 4px 8px 4px rgba(64, 64, 64, 0.5);
+    }
+
+.ArticleScrollHorizontal, .ArticleScrollVertical {
+    background-color: #DDDDDD;
+    box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5) inset;
+}
+
+.ArticleScrollHorizontal {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.ArticleScrollVertical {
+    overflow-y: scroll;
+}
+
+.ButtonClose, .ButtonCommand, .ButtonDanger, .ButtonInformation {
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    white-space: nowrap;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ButtonClose {
+    padding-top: 0px;
+    height: 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+    .ButtonClose:hover {
+        background: radial-gradient(circle, #BB0000, #AA0000);
+        color: white;
+    }
+
+.ButtonCommand {
+    background: radial-gradient(circle, #00AA44, #009933);
+}
+
+    .ButtonCommand:hover {
+        background: radial-gradient(circle, #009933, #008822);
+    }
+
+.ButtonDanger {
+    background: radial-gradient(circle, #CC0000, #BB0000);
+}
+
+    .ButtonDanger:hover {
+        background: radial-gradient(circle, #BB0000, #AA0000);
+    }
+
+.ButtonInformation {
+    background: radial-gradient(circle, #0044CC, #0033BB);
+}
+
+    .ButtonInformation:hover {
+        background: radial-gradient(circle, #0033BB, #0022AA);
+    }
+
+.ButtonSocialmedia {
+    transition-duration: 2.0s;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .ButtonSocialmediaEmail:hover {
+        transition-duration: 0.2s;
+        /*Accent colour for website should be used here*/
+        color: #FFCC00;
+    }
+
+    .ButtonSocialmediaFacebook:hover, .ButtonSocialmediaFacebooklike:hover {
+        transition-duration: 0.2s;
+        color: #3B5998;
+    }
+
+    .ButtonSocialmediaGoogleplus:hover {
+        transition-duration: 0.2s;
+        color: #DD4B39;
+    }
+
+    .ButtonSocialmediaTwitter:hover {
+        transition-duration: 0.2s;
+        color: #55ACEE;
+    }
+
+    .ButtonSocialmediaYoutube:hover {
+        transition-duration: 0.2s;
+        color: #BB0000;
+    }
+
+.ColumnNarrow {
+    width: 100%;
+}
+
+.ColumnWide {
+    width: 100%;
+}
+
+.Gallery {
+    margin-bottom: -6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.GalleryButtonNext, .GalleryButtonPrevious {
+    transition-duration: 2.0s;
+    cursor: default;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -118px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.GalleryButtonNext {
+    float: right;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.GalleryButtonPrevious {
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+}
+
+    .GalleryButtonNext:hover, .GalleryButtonPrevious:hover {
+        transition-duration: 0.2s;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.GalleryThumbnail {
+    transition-duration: 0.2s;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 60px;
+}
+
+    .GalleryThumbnail:hover {
+        transition-duration: 0.2s;
+        box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5);
+    }
+
+.GalleryThumbnail_Active {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 60px;
+    border-color: #00AA44;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5);
+}
+
+.GalleryWall {
+    display: none;
+}
+
+.GalleryWall_Show {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 180px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.GalleryWallCaption {
+    display: none;
+}
+
+.GalleryWallNumber {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 111px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    color: white;
+    text-align: left;
+}
+
+    .HeaderNavigation li:not(:first-child) {
+        display: none;
+    }
+
+    .HeaderNavigation_Show li:not(:first-child) {
+        display: block;
+    }
+
+.HeaderNavigationButtonBar {
+    transition-duration: 0.2s;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 4px;
+    width: 28px;
+    background-color: white;
+}
+
+    .HeaderNavigationButtonClose #HeaderNavigationButtonBar1 {
+        transform: translate(0px, 8px) rotate(45deg);
+    }
+
+    .HeaderNavigationButtonClose #HeaderNavigationButtonBar2 {
+        opacity: 0.0;
+    }
+
+    .HeaderNavigationButtonClose #HeaderNavigationButtonBar3 {
+        transform: translate(0px, -8px) rotate(-45deg);
+    }
+
+.HeaderNavigationDropdown {
+    position: relative;
+}
+
+    .HeaderNavigationDropdown:hover .HeaderNavigationDropdownButton {
+        transition-duration: 0.2s;
+        /*Accent colour for website should be used here*/
+        background-color: #FFCC00;
+        /*Header highlighted text colour should be used here*/
+        color: black;
+    }
+
+.HeaderNavigationDropdownButton {
+    transition-duration: 0.2s;
+    cursor: default;
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    /*Header colour should be used here*/
+    background-color: black;
+    color: white;
+}
+
+    .HeaderNavigationDropdownButton:hover {
+        transition-duration: 0.2s;
+        /*Accent colour for website should be used here*/
+        background-color: #FFCC00;
+        /*Header highlighted text colour should be used here*/
+        color: black;
+    }
+
+.HeaderNavigationDropdownContent {
+    display: none;
+}
+
+.HeaderNavigationDropdownContent_Show {
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    overflow: auto;
+    white-space: nowrap;
+    /*HeaderNavigationDropdownContent accordion colour should be used here*/
+    background-color: #000011;
+}
+
+.HeaderNavigationDropdownIconMinus::after, .HeaderNavigationDropdownIconPlus::after {
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 32px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.HeaderNavigationDropdownIconMinus::after {
+    content: '-';
+}
+
+.HeaderNavigationDropdownIconPlus::after {
+    content: '+';
+}
+
+.HeaderNavigationDropdownLink {
+    transition-duration: 0.2s;
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+    .HeaderNavigationDropdownLink:hover {
+        transition-duration: 0.2s;
+        /*Accent colour for website should be used here*/
+        background-color: #FFCC00;
+        /*Header highlighted text colour should be used here*/
+        color: black;
+    }
+
+.HeaderNavigationDropdownSeparator {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    /*Accent colour for website should be used here*/
+    color: #FFCC00;
+    border-style: solid;
+}
+
+.HeaderNavigationLink {
+    transition-duration: 0.2s;
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    /*Header colour should be used here*/
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+    .HeaderNavigationLink:hover {
+        transition-duration: 0.2s;
+        /*Accent colour for website should be used here*/
+        background-color: #FFCC00;
+        /*Header highlighted text colour should be used here*/
+        color: black;
+    }
+
+.Modal {
+    display: none;
+}
+
+.Modal_Open {
+    animation-duration: 0.5s;
+    animation-name: Modal_SwipeIn;
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: fixed;
+    overflow: auto;
+    left: 0px;
+    top: 0px;
+    height: 101%;
+    width: 100%;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.ModalContent {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.Slideshow {
+    margin-bottom: -6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.SlideshowButtonNext, .SlideshowButtonPrevious {
+    transition-duration: 2.0s;
+    cursor: default;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -128px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.SlideshowButtonNext {
+    float: right;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.SlideshowButtonPrevious {
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+}
+
+    .SlideshowButtonNext:hover, .SlideshowButtonPrevious:hover {
+        transition-duration: 0.2s;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.SlideshowIndicator {
+    transition-duration: 0.2s;
+    cursor: default;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 12px;
+    width: 12px;
+    background-color: #BBBBBB;
+    border-radius: 50%;
+}
+
+    .SlideshowIndicator:hover {
+        transition-duration: 0.2s;
+        background-color: #AAAAAA;
+    }
+
+.SlideshowIndicator_Active {
+    cursor: default;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 12px;
+    width: 12px;
+    background-color: #999999;
+    border-radius: 50%;
+}
+
+.SlideshowScreen {
+    display: none;
+}
+
+.SlideshowScreen_Show {
+    animation-duration: 2.0s;
+    animation-name: SlideshowSlide_SlideOut;
+    margin-bottom: -200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 200px;
+    z-index: 2;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SlideshowSlide {
+    display: none;
+}
+
+.SlideshowSlide_Show {
+    animation-duration: 2.0s;
+    animation-name: SlideshowSlide_SlideIn;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 200px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SlideshowSlideCaption {
+    display: none;
+}
+
+.SlideshowSlideNumber {
+    animation-delay: 1.0s;
+    animation-duration: 1.0s;
+    animation-fill-mode: backwards;
+    animation-name: SlideshowSlideText_FadeIn;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 131px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    color: white;
+    text-align: left;
+}
+
+.Thumbnail {
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    height: 120px;
+}
+
+    .Thumbnail:hover {
+        transition-duration: 0.2s;
+        box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5);
+    }
+
+#Footer {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+    /*Header colour should be used here*/
+    background-color: black;
+    box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5);
+    color: white;
+    text-align: center;
+}
+
+    #Footer td {
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0px;
+        text-align: center;
+        vertical-align: top;
+    }
+
+#Header {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+    z-index: 3;
+    /*Header colour should be used here*/
+    background-color: black;
+    box-shadow: 0px 2px 4px 2px rgba(64, 64, 64, 0.5);
+    text-align: left;
+}
+
+    #Header tr {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    #Header td {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    #Header ul {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+#HeaderNavigation {
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+    #HeaderNavigation li {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        min-height: 51px;
+    }
+
+    #HeaderNavigation li:first-child {
+        display: block;
+    }
+
+#HeaderNavigationButton {
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    width: 28px;
+    /*Header colour should be used here*/
+    background-color: black;
+}
+
+#Main {
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+    #Main li {
+        float: left;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+#WebsiteTitle {
+    cursor: default;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 0px;
+    /*Header colour should be used here*/
+    color: black;
+    font-size: 0px;
+}
+
+@keyframes Modal_SwipeIn {
+    from {
+        top: 100%;
+        opacity: 0.0;
+    }
+
+    to{
+        top: 0px;
+        opacity: 1.0;
+    }
+}
+
+@keyframes SlideshowSlide_SlideIn {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+@keyframes SlideshowSlide_SlideOut {
+    from {
+        margin-right: 0px;
+    }
+
+    to {
+        margin-right: 100%;
+    }
+}
+
+@keyframes SlideshowSlideText_FadeIn {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
